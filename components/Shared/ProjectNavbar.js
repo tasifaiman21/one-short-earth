@@ -15,7 +15,7 @@ import {
       <Flex w="85%" alignSelf={"center"} pt="2rem">
         <SimpleGrid
           columns={[3, 3, 3, 3, 3]}
-          spacing={["3rem", "8rem", "18rem", "5rem", "1rem"]}
+          spacing={["3rem", "8rem", "18rem", "5rem", "0.5rem"]}
         >
           {/* flex for company start */}
           <Flex alignItems="center" justifyContent="start">
@@ -26,7 +26,7 @@ import {
           {/* flex for buttons start */}
           <Flex
             gap="2rem"
-            alignItems="center" justifyContent="center"
+            alignItems="center" justifyContent="start"
            
           >
             <Link href="">

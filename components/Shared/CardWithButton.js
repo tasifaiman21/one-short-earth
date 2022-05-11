@@ -26,7 +26,7 @@ import {
           </Flex>
   
           <Flex justifyContent={"space-between"}>
-            <Flex pt="2rem" gap="1.5rem">
+            <Flex pt="2rem" gap="0.5rem">
               <Image
               
                 width="37px"
@@ -35,19 +35,19 @@ import {
                 alt="profileCard"
               />
               <Flex direction={"column"}>
-                <Text fontSize="sm" color="white">
-                  User Name
+                <Text fontSize="0.875rem" color="white">
+                  NFT Name
                 </Text>
 
-                <Button fontSize="xs" color="#D7D7D7"  w="6.8125rem" h="1.5625rem" border={"1px solid #E2E2E2"} borderRadius="8px" background={"transparent"}> Request Trade </Button>
+                <Button fontSize="0.75rem" color="#D7D7D7"  w="6.8125rem" h="1.5625rem" border={"1px solid #E2E2E2"} borderRadius="8px" background={"transparent"}> Request Trade </Button>
                
               </Flex>
             </Flex>
   
-            <Flex pt="2rem" gap="1.5rem">
+            <Flex pt="2rem" gap="0.5rem">
               <Flex direction={"column"}>
-                <Text fontSize="sm" color="white">
-                  WE ARE HERE
+                <Text fontSize="0.625rem" color="white">
+                18 Dec 2022 12:45 am
                 </Text>
   
                 <Flex justifyContent={"end"} gap="3" pt="0.5rem">
@@ -57,7 +57,7 @@ import {
                     src="/heart.png"
                     alt="heart"
                   />
-                  <Text fontSize="xs" color="white">
+                  <Text fontSize="0.875rem" color="white">
                     25
                   </Text>
                 </Flex>
