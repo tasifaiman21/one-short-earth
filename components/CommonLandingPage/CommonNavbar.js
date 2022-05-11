@@ -31,7 +31,7 @@ export default function CommonNavbar() {
          
         >
           <Link href="">
-            <Button fontSize="xs" variant="link" color="#9B51E0">
+            <Button textDecoration={"underline"} fontSize="xs" variant="link" color="#9B51E0">
               HOME
             </Button>
           </Link>
@@ -43,13 +43,14 @@ export default function CommonNavbar() {
 
           <Link href="">
             <Button fontSize="xs" variant="link" color="#BCBCBC">
-              HOW IT WORKS
+            CONTACT
             </Button>
           </Link>
 
           <Link href="">
             <Button fontSize="xs" variant="link" color="#BCBCBC">
-              CONTACT
+          
+              HOW IT WORKS
             </Button>
           </Link>
         </Flex>
@@ -63,6 +64,8 @@ export default function CommonNavbar() {
             h="2.8125rem"
             border="1px solid #D7D7D7"
             borderRadius={"10px"}
+            background="transparent"
+            color="#BCBCBC"
           >
             CONNECT WALLET
           </Button>
