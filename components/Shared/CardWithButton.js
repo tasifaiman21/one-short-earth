@@ -12,10 +12,11 @@ import Image from "next/image";
 export default function CardWithButton() {
   return (
     <Flex direction={"column"}>
-      <Flex w="2.48rem" h="2.48rem" background={"#FB37FF"} filter="blur(200px)">
-        {/* effect */}
+     {/*   effect */}
+     {/*  <Flex w="2.48rem" h="2.48rem" background={"#FB37FF"} filter="blur(200px)">
+    
       </Flex>
-
+ */}
       <Flex
         w="21.988rem"
         h="25.52rem"
@@ -25,10 +26,11 @@ export default function CardWithButton() {
         borderRadius="35.0246px"
         direction={"column"}
       >
-        <Flex p="1rem" alignItems={"center"} justifyContent={"center"} direction={"column"}>
+        <Flex p="1rem" justifyContent={"center"} direction={"column"}>
           <Flex
             border="1px solid"
             borderRadius="20px"
+            alignSelf={"center"}
             width="312.02px"
             height="312.72px"
             backgroundImage={'url("/card.jpg")'}
@@ -84,10 +86,13 @@ export default function CardWithButton() {
           </Flex>
         </Flex>
       </Flex>
+      
 
-      <Flex w="2.57rem" h="2.57rem" background={"#18B2DE"} filter="blur(200px)">
-        {/* effect */}
-      </Flex>
+    {/*   effect */}
+
+    {/*   <Flex w="2.57rem" h="2.57rem" background={"#18B2DE"} filter="blur(200px)">
+       
+      </Flex> */}
     </Flex>
   );
 }

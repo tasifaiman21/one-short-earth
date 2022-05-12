@@ -66,12 +66,13 @@ export default function CommonHero() {
           borderRadius="35.0246px"
           direction={"column"}
         >
-          <Flex p="2rem" alignItems={"center"} justifyContent={"center"} direction={"column"}>
+          <Flex p="2rem"  justifyContent={"center"} direction={"column"}>
             <Flex
               border="1px solid"
               borderRadius="20px"
               width="447px"
               height="448px"
+              alignSelf={"center"}
               backgroundImage={'url("/card.jpg")'}
             ></Flex>
 

@@ -27,10 +27,11 @@ export default function Card() {
         borderRadius="35.0246px"
         direction={"column"}
       >
-        <Flex p="1rem" alignItems={"center"} justifyContent={"center"} direction={"column"}>
+        <Flex p="1rem"  justifyContent={"center"} direction={"column"}>
           <Flex
             border="1px solid"
             borderRadius="20px"
+            alignSelf={"center"}
             width="312.02px"
             height="312.72px"
             backgroundImage={'url("/card.jpg")'}
