@@ -63,6 +63,8 @@ export default function ByerOwnNft() {
         <Flex justifyContent={"end"} pt="3rem">
           <Pagination />
         </Flex>
+
+        
       </Flex>
     </Flex>
   );

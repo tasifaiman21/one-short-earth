@@ -27,6 +27,7 @@ export default function ByerNavbar() {
           <Link href="">
             <Button
               textDecoration={"underline"}
+              textUnderlineOffset="0.5rem"
               fontSize="xs"
               variant="link"
               color="#9B51E0"

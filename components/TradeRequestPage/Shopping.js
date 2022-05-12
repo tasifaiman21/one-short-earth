@@ -51,6 +51,8 @@ export default function Shopping() {
           <Flex>
             <TradeShoppingCard />
           </Flex>
+
+          
           <Flex>
             <TradeShoppingCard />
           </Flex>

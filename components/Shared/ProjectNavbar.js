@@ -15,7 +15,7 @@ import {
       <Flex w="85%" alignSelf={"center"} pt="2rem">
         <SimpleGrid
           columns={[3, 3, 3, 3, 3]}
-          spacing={["3rem", "8rem", "18rem", "5rem", "0.5rem"]}
+          spacing={["3rem", "8rem", "18rem", "4rem", "0.5rem"]}
         >
           {/* flex for company start */}
           <Flex alignItems="center" justifyContent="start">
@@ -30,7 +30,7 @@ import {
            
           >
             <Link href="">
-              <Button textDecoration={"underline"} fontSize="xs" variant="link" color="#9B51E0">
+              <Button textDecoration={"underline"} textUnderlineOffset="0.5rem" fontSize="xs" variant="link" color="#9B51E0">
                 HOME
               </Button>
             </Link>

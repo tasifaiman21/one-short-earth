@@ -1,16 +1,21 @@
 import {
-    Flex,
-    Text,
-    Box,
-    Link,
-    SimpleGrid,
-    Button,
-    Icon,
-  } from "@chakra-ui/react";
-  import Image from "next/image";
-  
-  export default function Card() {
-    return (
+  Flex,
+  Text,
+  Box,
+  Link,
+  SimpleGrid,
+  Button,
+  Icon,
+} from "@chakra-ui/react";
+import Image from "next/image";
+
+export default function CardWithButton() {
+  return (
+    <Flex direction={"column"}>
+      <Flex w="2.48rem" h="2.48rem" background={"#FB37FF"} filter="blur(200px)">
+        {/* effect */}
+      </Flex>
+
       <Flex
         w="21.988rem"
         h="25.52rem"
@@ -20,18 +25,21 @@ import {
         borderRadius="35.0246px"
         direction={"column"}
       >
-        <Flex p="2rem" justifyContent={"center"} direction={"column"}>
-          <Flex>
-            <Image  border="1px solid" borderRadius="20px" width="312.02px" height="312.72px" src="/card.jpg" alt="card" />
-          </Flex>
-  
+        <Flex p="1rem" alignItems={"center"} justifyContent={"center"} direction={"column"}>
+          <Flex
+            border="1px solid"
+            borderRadius="20px"
+            width="312.02px"
+            height="312.72px"
+            backgroundImage={'url("/card.jpg")'}
+          ></Flex>
+
           <Flex justifyContent={"space-between"}>
-            <Flex pt="2rem" gap="0.5rem">
+            <Flex pt="1rem" gap="0.5rem">
               <Image
-              
                 width="37px"
                 height="37px"
-                src="/profileCard.jpg"
+                src="/profileCard.png"
                 alt="profileCard"
               />
               <Flex direction={"column"}>
@@ -39,17 +47,27 @@ import {
                   NFT Name
                 </Text>
 
-                <Button fontSize="0.75rem" color="#D7D7D7"  w="6.8125rem" h="1.5625rem" border={"1px solid #E2E2E2"} borderRadius="8px" background={"transparent"}> Request Trade </Button>
-               
+                <Button
+                  fontSize="0.75rem"
+                  color="#D7D7D7"
+                  w="6.8125rem"
+                  h="1.5625rem"
+                  border={"1px solid #E2E2E2"}
+                  borderRadius="8px"
+                  background={"transparent"}
+                >
+                  {" "}
+                  Request Trade{" "}
+                </Button>
               </Flex>
             </Flex>
-  
-            <Flex pt="2rem" gap="0.5rem">
+
+            <Flex pt="1rem" gap="0.5rem">
               <Flex direction={"column"}>
                 <Text fontSize="0.625rem" color="white">
-                18 Dec 2022 12:45 am
+                  18 Dec 2022 12:45 am
                 </Text>
-  
+
                 <Flex justifyContent={"end"} gap="3" pt="0.5rem">
                   <Image
                     width="18px"
@@ -66,6 +84,10 @@ import {
           </Flex>
         </Flex>
       </Flex>
-    );
-  }
-  
+
+      <Flex w="2.57rem" h="2.57rem" background={"#18B2DE"} filter="blur(200px)">
+        {/* effect */}
+      </Flex>
+    </Flex>
+  );
+}
